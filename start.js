@@ -23,8 +23,7 @@ router.get('/table/', (req, res) => {
 });
 
 router.get('/table/doc.js', (req, res) => {
-  // res.sendFile(`${here}/docgood-opt-bundle.js`);
-  res.sendFile(`${here}/docbad-opt-bundle.js`);
+  res.sendFile(`${here}/doc-opt-bundle.js`);
 });
 
 app.listen(port, () => {
