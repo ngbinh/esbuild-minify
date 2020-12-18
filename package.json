@@ -10,7 +10,7 @@
   "dependencies": {
     "react-dom": "16.13.1",
     "resize-observer-polyfill": "1.5.1",
-    "dompurify": "2.0.11",
+    "dompurify": "2.0.17",
     "xlsx": "0.16.1",
     "react-text-mask": "5.4.3",
     "amplitude-js": "6.2.0",
