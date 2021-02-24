@@ -18,11 +18,11 @@ app.use(router);
 // - /doc.css
 router.use(express.static(`${here}`));
 
-router.get('/table/', (req, res) => {
+router.get('/form/', (req, res) => {
   res.sendFile(`${here}/app.html`);
 });
 
-router.get('/table/doc.js', (req, res) => {
+router.get('/form/doc.js', (req, res) => {
   res.sendFile(`${here}/doc-opt-bundle.js`);
 });
 
